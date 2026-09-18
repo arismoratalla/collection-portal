@@ -25,3 +25,7 @@ _ide_helper.php
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+# Collection portal import datasets
+/storage/app/private/collection-imports/**
+!/storage/app/private/collection-imports/.gitignore
