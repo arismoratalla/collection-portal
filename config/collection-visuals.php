@@ -1,0 +1,70 @@
+<?php
+
+return [
+    'default' => [
+        'title' => 'Natural-history collection',
+        'discipline' => 'Public collection',
+        'description' => 'Explore specimen records, taxonomy, locality, and collection metadata.',
+        'glyph' => 'COL',
+        'accent' => '#0f766e',
+        'soft' => '#ccfbf1',
+        'image' => null,
+    ],
+
+    'collections' => [
+        'birds' => [
+            'title' => 'Birds',
+            'discipline' => 'Ornithology Collection',
+            'description' => 'Avian specimens and their collecting records.',
+            'glyph' => 'BIR',
+            'accent' => '#2563eb',
+            'soft' => '#dbeafe',
+            'image' => 'images/collections/birds.png',
+        ],
+        'fish' => [
+            'title' => 'Fish',
+            'discipline' => 'Ichthyology Collection',
+            'description' => 'Freshwater and marine fish specimens from the portal collection.',
+            'glyph' => 'FIS',
+            'accent' => '#0ea5a3',
+            'soft' => '#ccfbf1',
+            'image' => 'images/collections/fish.png',
+        ],
+        'herps' => [
+            'title' => 'Herpetology',
+            'discipline' => 'Herpetology Collection',
+            'description' => 'Amphibian and reptile holdings curated for public discovery.',
+            'glyph' => 'HER',
+            'accent' => '#16a34a',
+            'soft' => '#dcfce7',
+            'image' => 'images/collections/herps.png',
+        ],
+        'mammals' => [
+            'title' => 'Mammals',
+            'discipline' => 'Mammalogy Collection',
+            'description' => 'Mammalian specimens and associated field observations.',
+            'glyph' => 'MAM',
+            'accent' => '#92400e',
+            'soft' => '#fef3c7',
+            'image' => 'images/collections/mammals.png',
+        ],
+        'mollusk' => [
+            'title' => 'Mollusks',
+            'discipline' => 'Molluscan Collection',
+            'description' => 'Molluscan holdings spanning shells, soft-bodied taxa, and vouchers.',
+            'glyph' => 'MOL',
+            'accent' => '#7c3aed',
+            'soft' => '#ede9fe',
+            'image' => 'images/collections/mollusk.png',
+        ],
+        'non-mollusk' => [
+            'title' => 'Non-Molluscan Invertebrates',
+            'discipline' => 'Non-Molluscan Invertebrate Collection',
+            'description' => 'Invertebrate material outside the molluscan collection scope.',
+            'glyph' => 'INV',
+            'accent' => '#be185d',
+            'soft' => '#fce7f3',
+            'image' => 'images/collections/non-mollusk.png',
+        ],
+    ],
+];
